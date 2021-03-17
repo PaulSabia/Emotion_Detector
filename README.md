@@ -25,7 +25,7 @@ L'entrainement du modèle a été réalisé sur `Google Colab`, service de Googl
 
 Pour ce modèle, nous nous sommes tournés vers un réseau neuronal convolutif (CNN), efficace pour la classificaion d'images : 
 
-![](CNN.PNG)
+![](Images/CNN.PNG)
 
 Notre modèle est composé d'une alternance de couches `Conv2D`, `BatchNormalization`, `Conv2D`, `BatchNormalization`, `MaxPooling2D`, `Dropout` puis de couches `Dense`.
 
@@ -40,7 +40,7 @@ Le notebook est disponible [ici](./classification_model_collab.ipynb)
 
 Au final, le modèle présente un précision de **68,8 %**. Voici la matrice de confusion : 
 
-![](confusion_matrix.PNG)
+![](Images/confusion_matrix.PNG)
 
 ## Applicatif
 
