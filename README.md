@@ -21,7 +21,7 @@ Pour ce projet, nous avons utilisé un jeu de donnée disponible dans le dossier
 
 ## Formation et entrainement du modèle :
 
-L'entrainement du modèle a été réalisé sur `Google Colab`, service de Google permettant d'avoir accès gratuitement à un GPU sur machine virtuelle.
+L'entrainement du modèle a été réalisé sur `Google Colab`, service de Google permettant d'avoir accès gratuitement à un GPU sur machine virtuelle, augmentant ainsi nos temps de traitement.
 
 Pour ce modèle, nous nous sommes tournés vers un réseau neuronal convolutif (CNN), efficace pour la classificaion d'images : 
 
