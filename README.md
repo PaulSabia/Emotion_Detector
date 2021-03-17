@@ -34,7 +34,7 @@ Notre modèle est composé d'une alternance de couches `Conv2D`, `BatchNormaliza
 * `Dropout` abandonne de façon aléatoire certain noeuds du CNN afin d'éviter le sur-apprentissage
 * `Dense` pour la classification.
 
-Le notebook est disponible [ici](./classification_model_collab.ipynb)
+Le notebook est disponible [ici](./classification_model.ipynb)
 
 ## Résultat
 
