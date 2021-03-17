@@ -1,6 +1,6 @@
 # Emotion_Detector
 
-## Objectif:
+## Objectif :
 
 Ce projet consiste à créer un détecteur d'émotions sur une image ou directement depuis une webcam. Le but étant de pouvoir détecter jusqu'à 7 émotions :
 
@@ -14,12 +14,12 @@ Ce projet consiste à créer un détecteur d'émotions sur une image ou directem
 * Triste
 * Surpris
 
-## Les données:
+## Les données :
 
 Pour ce projet, nous avons utilisé un jeu de donnée disponible dans le dossier [dataset](./dataset) du repository. Il est composé de presque 36 000 images, déjà divisé en données de train, de test et par émotions.
 
 
-## Formation et entrainement du modèle:
+## Formation et entrainement du modèle :
 
 L'entrainement du modèle a été réalisé sur `Google Colab`, service de Google permettant d'avoir accès gratuitement à un GPU sur machine virtuelle permettant une vitesse d'éxécution plus rapide que sur une notebook classique en local. 
 
@@ -38,7 +38,7 @@ Le notebook est disponible [ici](./classification_model_collab.ipynb)
 
 ## Résultat
 
-Au final, le modèle présente un précision de 68,8 %. Voici la matrice de confusion : 
+Au final, le modèle présente un précision de **68,8 %**. Voici la matrice de confusion : 
 
 ![]()
 
