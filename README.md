@@ -54,6 +54,6 @@ Le modèle détecte plutôt bien les émotions neutre, joie, tristesse, colère 
 
 Pour tester la detection avec une camera le fichier est disponible [ici](Test_Model.ipynb)
 
-Capture d'écran à venir...
+![](Images/test_images.PNG)
 
 
