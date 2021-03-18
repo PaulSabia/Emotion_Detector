@@ -50,7 +50,7 @@ Au final, le modèle présente un précision de **68,8 %**. Voici la matrice de 
 
 Le modèle détecte plutôt bien les émotions neutre, joie, tristesse, colère et surprise mais semble plus en difficulté sur le dégoût et la peur.
 
-## Applicatif
+## Application
 
 Pour tester la detection avec une camera le fichier est disponible [ici](Test_Model.ipynb)
 
