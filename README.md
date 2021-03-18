@@ -4,12 +4,10 @@
 
 Ce projet consiste à créer un détecteur d'émotions sur une image ou directement depuis une webcam. Le but étant de pouvoir détecter jusqu'à 7 émotions :
 
- la colère, le dégoût, la peur, le bonheur, neutre, la tristesse et la surprise
-
 * Colère
 * Dégoût
 * Peur
-* Bonheur
+* Joie
 * Neutre
 * Triste
 * Surpris
@@ -42,9 +40,17 @@ Au final, le modèle présente un précision de **68,8 %**. Voici la matrice de 
 
 ![](Images/confusion_matrix.PNG)
 
+* 0 : Colère
+* 1 : Dégoût
+* 2 : Peur
+* 3 : Joie
+* 4 : Triste
+* 5 : Surprise
+* 6 : Neutre
+
 ## Applicatif
 
 Pour tester la detection avec une camera le fichier est disponible [ici](Test_Model.ipynb)
 
 
-Le modèle détecte plutôt bien les émotions neutre, bonheur, tristesse, colère et surprise mais semble plus en difficulté sur le dégoût et la peur.
+Le modèle détecte plutôt bien les émotions neutre, joie, tristesse, colère et surprise mais semble plus en difficulté sur le dégoût et la peur.
